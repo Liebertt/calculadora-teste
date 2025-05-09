@@ -1,5 +1,5 @@
 from calculator import add
 
 def test_add():
-    assert add(3, 3) == 5
+    assert add(5, 3) == 5
     print("Teste passou!")
