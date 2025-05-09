@@ -1,4 +1,5 @@
 from calculator import add
 
-assert add(2, 3) == 5
-print("Teste passou!")
+def test_add():
+    assert add(2, 3) == 5
+    print("Teste passou!")
